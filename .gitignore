@@ -1,0 +1,85 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# PyTorch / YOLO Model Weights & Large Binary Files
+*.pt
+*.pth
+*.onnx
+*.engine
+*.weights
+*.tflite
+*.bin
+*.safetensors
+yolov8n.pt
+models/*.pt
+models/*.pth
+models/*.onnx
+
+# SQLite / Database & Log files generated at runtime
+*.db
+*.sqlite
+*.sqlite3
+*.log
+
+# Outputs and runtime generated assets
+outputs/*
+!outputs/.gitkeep
+outputs/cropped_plates/*
+!outputs/cropped_plates/.gitkeep
+
+# Test input media / dynamic datasets (keep folder structure via .gitkeep)
+data/input_images/*
+!data/input_images/.gitkeep
+data/input_videos/*
+!data/input_videos/.gitkeep
+
+# Environment variables & secrets
+.env
+.env.*
+secrets.json
+.streamlit/secrets.toml
+
+# IDE & Editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Operating System files
+.DS_Store
+.DS_Store?
+ehthumbs.db
+Icon?
+Thumbs.db

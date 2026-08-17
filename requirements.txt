@@ -1,0 +1,9 @@
+opencv-python
+easyocr
+ultralytics
+streamlit
+pandas
+pillow
+numpy
+mysql-connector-python
+customtkinter
